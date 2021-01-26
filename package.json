@@ -1,0 +1,22 @@
+{
+  "name": "uqcs-static",
+  "version": "1.0.0",
+  "description": "UQCS's fork of the Bulma CSS framework, customised with the UQCS 2021 design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UQComputingSociety/static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UQComputingSociety/static/issues"
+  },
+  "homepage": "https://github.com/UQComputingSociety/static#readme",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}
