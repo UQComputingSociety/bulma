@@ -2,7 +2,7 @@
 
 name: Build and Deploy
 
-# Controls when the action will run.
+# Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -32,20 +32,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - uses: actions/cache@v2
-        with:
-          path: ~/.degit
-          key: ${{ runner.os }}-degit-${{ hashFiles('./fetch.sh') }}
-          restore-keys: |
-            ${{ runner.os }}-degit-
-
       # Runs a single command using the runners shell
       - uses: actions/setup-node@v2
       - run: npm install
 
       # Runs a set of commands using the runners shell
       - run: npm run build
-
+  
       # Deploy to GitHub pages
       - uses: peaceiris/actions-gh-pages@v3
         if: github.event_name	== 'push' && github.ref == 'refs/heads/main'
