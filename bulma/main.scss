@@ -2,8 +2,8 @@
  
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap);
 
-@import '../node_modules/bulma/sass/utilities/initial-variables';
-@import '../node_modules/bulma/sass/utilities/functions';
+@import '../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import '../node_modules/bulma/sass/utilities/functions.sass';
 
 @import 'variables.scss';
 @import 'uqcs.scss';
