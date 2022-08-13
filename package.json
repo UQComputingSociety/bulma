@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/UQComputingSociety/static#readme",
   "dependencies": {
-    "bulma": "^0.9.1",
-    "node-sass": "^5.0.0"
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
   }
 }
