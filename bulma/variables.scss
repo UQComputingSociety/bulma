@@ -1,12 +1,11 @@
 $grey: #414141;
+$grey-darker: $grey;
 $blue: #50C3F0;
 $link-hover: darken($blue, 20%);
 $text: $grey;
 
 $family-sans-serif: "Inter", sans-serif;
 $family-primary: $family-sans-serif;
-
-$has-background-dark: $grey;
 
 $radius: 0;
 $radius-large: 0;
