@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "sass --source-map true --embed-sources --output-style compressed bulma/main.scss:build/bulma/main.css",
+    "build:css": "sass --source-map --embed-sources -s compressed bulma/main.scss:build/bulma/main.css",
     "build": "npm run build:css"
   },
   "repository": {
