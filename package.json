@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "node-sass --source-map true --source-map-contents --output build/bulma --output-style compressed bulma/main.scss",
+    "build:css": "sass --source-map true --embed-sources --output-style compressed bulma/main.scss:build/bulma/main.css",
     "build": "npm run build:css"
   },
   "repository": {
@@ -20,6 +20,6 @@
   "homepage": "https://github.com/UQComputingSociety/static#readme",
   "dependencies": {
     "bulma": "^0.9.4",
-    "node-sass": "^7.0.1"
+    "sass": "^1.54.4"
   }
 }
